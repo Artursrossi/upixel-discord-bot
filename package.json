@@ -1,0 +1,13 @@
+{
+  "name": "upixel-discord-bot",
+  "description": "Upixel Discord Bot",
+  "author": "Artur Schincariol Rossi",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
