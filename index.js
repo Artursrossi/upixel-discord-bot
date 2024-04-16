@@ -8,7 +8,6 @@ const {
   ButtonStyle,
   ActionRowBuilder,
 } = require("discord.js");
-require("dotenv").config();
 
 const discordChannelWebhook = process.env.DISCORD_WEBHOOK;
 
@@ -71,7 +70,7 @@ client.on("guildMemberUpdate", async (oldMember, newMember) => {
           .setTitle(`${newMember.guild.name}`)
           .setURL(`https://${item.server}.upixel.store`)
           .setDescription(
-            `> **${newMember.user} Obrigado utilizar seu boost em nosso servidor! Resgate o seu benefício pelo nosso site**`
+            `> **${newMember.user} Obrigado por utilizar seu boost em nosso servidor! Resgate o seu benefício pelo nosso site**`
           )
           .setThumbnail(`${newMember.guild.iconURL()}`)
           .setFooter({
